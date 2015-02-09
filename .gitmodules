@@ -1,0 +1,3 @@
+[submodule "packages/meteor-autoform"]
+	path = packages/meteor-autoform
+	url = https://github.com/aldeed/meteor-autoform.git
