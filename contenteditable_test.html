@@ -1,0 +1,19 @@
+<head>
+  <title>contenteditable_test</title>
+</head>
+
+<body>
+  <h1>Test for ContentEditable</h1>
+
+  {{> hello}}
+</body>
+
+<template name="hello">
+
+  {{! #autoForm id="types2" collection="TestCollection" doc=testObject type="update" autosave=true}}
+    {{! > afFieldInput name="title" type="contenteditable"}}
+  {{! /autoForm}}
+
+  {{> quickForm id="types1" collection="TestCollection" doc=testObject type="update" autosave=true}}
+
+</template>
